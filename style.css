@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.header {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .masthead-container {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.header .masthead-container .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.header .masthead-container .container .logo {
+    margin: 0 420px 0 500px;
+    
+    cursor: pointer;
+}
+
+.header .masthead-container .container .header-right {
+    display: flex;
+}
+.header .masthead-container .container .icon {
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.header .menu {
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.header .menu li {
+    margin: 0 30px;
+    padding: 20px 5px 10px 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    position: relative;
+}
+
+.header .menu .home-btn {
+    color: #929292;
+}
+
+.header .menu .drop-menu {
+    width: 200px;
+    padding: 0;
+    text-transform: capitalize;
+    color: black;
+    list-style: none;
+    text-align: left;
+    position: absolute;
+    top: 100%;
+    left: -80%;
+    display: none;
+}
+
+.header .menu .note {
+    position: absolute;
+    left: -40%;
+}
+
+.header .menu li:hover {
+    border-bottom: 2px solid black;
+    color: #929292;
+}
+
+.header .menu li:hover .drop-menu {
+    display: block;
+}
+
+.header .menu li .drop-menu li {
+    padding: 12px;
+}
+
+.header .menu li .drop-menu li:hover {
+    background: black;
+    color: white;
+}
+
