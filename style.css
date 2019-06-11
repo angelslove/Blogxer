@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
 body {
     margin: 0;
@@ -47,12 +48,12 @@ body {
     text-transform: uppercase;
     list-style: none;
     display: flex;
-    padding-bottom: 10px;
+    padding-bottom: 16px;
+    margin-bottom: 0;
 }
 
 .header .menu li {
-    margin: 0 30px;
-    padding: 20px 5px 10px 5px;
+    padding: 20px 15px 8px 15px;
     cursor: pointer;
     font-size: 15px;
     font-weight: 600;
@@ -65,21 +66,24 @@ body {
 }
 
 .header .menu .drop-menu {
+    margin-top: 18px;
     width: 200px;
-    padding: 0;
+    padding: 0 5px;
     text-transform: capitalize;
     color: black;
+    background-color: white;
     list-style: none;
     text-align: left;
     position: absolute;
     top: 100%;
-    left: -80%;
+    left: -20%;
     display: none;
+    z-index: 1;
 }
 
 .header .menu .note {
     position: absolute;
-    left: -40%;
+    left: -10%;
 }
 
 .header .menu li:hover {
@@ -100,3 +104,93 @@ body {
     color: white;
 }
 
+.main-screen {
+    position: relative;
+}
+
+.main-screen .main {
+    top: -100%;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.main-screen .main .img {
+    width: 1110px;
+    height: 642px;
+    background: url('https://radiustheme.com/demo/wordpress/themes/blogxer/wp-content/uploads/2019/04/fashion1-1210x700.jpg');
+    background-position: center;
+}
+
+.main-screen .main .img .btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    z-index: 1;
+}
+
+.main-screen .main .btn-arrow {
+    margin: 321px 60px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    transition: 200ms all;
+    display: none;
+}
+
+.main-screen .main:hover .btn-arrow {
+    display: block;
+}
+
+.main-screen .main .btn-arrow:hover {
+    background-color: #444;
+    color: white;
+}
+
+.main-screen .main .btn-arrow i {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.main-screen .tab-overlay {
+    width: 848px;
+    height: 81px;
+    text-transform: capitalize;
+    margin: 0 auto;
+    background-color: white;
+    padding: 33px 20px 0;
+    position: absolute;
+    top: 89%;
+    left: 26%;
+    border-radius: 4px;
+}
+
+.main-screen .tab-overlay .p-top {
+    display: flex;
+    font-size: 14px;
+    color: #757575;
+    justify-content: center;
+}
+
+.main-screen .tab-overlay .p-top .item {
+    padding: 0 12px;
+}
+
+.main-screen .tab-overlay h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.main-screen .tab-overlay h2:hover {
+    opacity: 0.6;
+}
