@@ -184,13 +184,72 @@ body {
     padding: 0 12px;
 }
 
-.main-screen .tab-overlay h2 {
+.main-screen .tab-overlay p {
     font-family: 'Playfair Display', serif;
     text-align: center;
     font-size: 26px;
+    line-height: 39px;
+    font-weight: 700;
     cursor: pointer;
 }
 
-.main-screen .tab-overlay h2:hover {
-    opacity: 0.6;
+.main-screen .tab-overlay p:hover {
+    color: #646464;
+}
+
+.posts {
+    margin-top: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.posts .post-img {
+    width: 350px;
+    height: 287px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.posts .mid {
+    margin: 30px;
+}
+
+.posts .post-img .inner-img {
+    transition: 500ms all;
+}
+
+.posts .post-img:hover .inner-img {
+    transform: scale(1.05);
+}
+
+.posts .post .text {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.posts .post .text .p-text {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.posts .post .text .p-text .item {
+    padding: 0 6px;
+}
+
+.posts .post .text p {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 22px;
+    line-height: 31px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.posts .post .text p:hover {
+    color: #646464;
 }
