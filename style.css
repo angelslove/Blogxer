@@ -122,7 +122,6 @@ body {
     width: 1110px;
     height: 642px;
     background: url('https://radiustheme.com/demo/wordpress/themes/blogxer/wp-content/uploads/2019/04/fashion1-1210x700.jpg');
-    background-position: center;
 }
 
 .main-screen .main .img .btn {
@@ -256,8 +255,9 @@ body {
 
 .elementor {
     margin: 0 314px;
-    width: 1110px;
+    width: 1160px;
     display: flex;
+    justify-content: center;
     margin-bottom: 30px;
     border-bottom: 1.5px solid rgba(0,0,0,.1);
 }
@@ -676,4 +676,55 @@ body {
 
 .elementor .elementor-right .elementor-widget .tab-overlay p:hover {
     color: #646464;
+}
+
+.follow {  
+    margin: 20px 365px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.follow .ins-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.follow .ins-img .item {
+    width: 173px;
+    height: 173px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.follow .ins-img .item img {
+    transition: 500ms all;
+} 
+
+.follow .ins-img .item img:hover {
+    transform: scale(1.1);
+}
+
+.follow button {
+    padding: 14px 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400px;
+    letter-spacing: 2px;
+    background: #fff;
+    border-radius: 4px; 
+    cursor: pointer;
+}
+
+.follow .fl {
+    position: absolute;
+    transition: 500ms all;
+}
+
+.follow .fl:hover {
+    background: #111;
+    color: #fff;
 }
