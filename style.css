@@ -198,7 +198,7 @@ body {
 }
 
 .posts {
-    margin-top: 54px;
+    margin-top: 84px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,7 +213,7 @@ body {
 }
 
 .posts .mid {
-    margin: 30px;
+    margin: 0 30px;
 }
 
 .posts .post-img .inner-img {
@@ -226,7 +226,7 @@ body {
 
 .posts .post .text {
     text-align: center;
-    padding: 25px 0;
+    padding-top: 25px;
 }
 
 .posts .post .text .p-text {
@@ -251,5 +251,429 @@ body {
 }
 
 .posts .post .text p:hover {
+    color: #646464;
+}
+
+.elementor {
+    margin: 0 314px;
+    width: 1110px;
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: 1.5px solid rgba(0,0,0,.1);
+}
+
+.elementor .elementor-left {
+    width: 741.66px;
+    height: 2904.05px;
+    padding: 30px 30px 30px 50px;
+}
+
+.elementor .elementor-left .post-img {
+    width: inherit;
+    height: 429.05px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.elementor .elementor-left .post-img .inner-img {
+    transition: 500ms all;
+}
+
+
+.elementor .elementor-left .post-img:hover .inner-img {
+    transform: scale(1.05);
+}
+
+.elementor .elementor-left .text {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.elementor .elementor-left .text .p-text {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.elementor .elementor-left .text .p-text .item {
+    padding: 0 8px;
+}
+
+.elementor .elementor-left .text h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39px;
+    font-family: "Playfair Display", sans-serif;
+    cursor: pointer;
+}
+
+.elementor .elementor-left .text h2:hover {
+    color: #646464;
+}
+
+.elementor .elementor-left .text p {
+    font-size: 14px;
+    color: #666666;
+}
+
+.elementor .elementor-left .btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: #444;
+    background: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.elementor .elementor-left .btn:hover{
+    color: #646464;
+}
+
+.elementor .elementor-left .btn i {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ccc;
+}
+
+.elementor .elementor-left .bars {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elementor .elementor-left .bars .bar {
+    padding-top: 35px;
+}
+
+.elementor .elementor-left .bars .left {
+    padding-right: 30px;
+
+}
+
+.elementor .elementor-left .bars .bar .post-img {
+    width: 355.83px;
+    height: 292px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.elementor .elementor-left .bars .bar .post-img .inner-img {
+    transition: 500ms all;
+}
+
+.elementor .elementor-left .bars .bar .post-img:hover .inner-img {
+    transform: scale(1.05);
+}
+
+.elementor .elementor-left .bars .bar .text {
+    width: 355.83px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.elementor .elementor-left .bars .bar .text .p-text {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.elementor .elementor-left .bars .bar .text .p-text .item {
+    padding: 0 8px;
+}
+
+.elementor .elementor-left .bars .bar .text h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 31px;
+    font-family: "Playfair Display", sans-serif;
+    cursor: pointer;
+}
+
+.elementor .elementor-left .bars .bar .text h2:hover {
+    color: #646464;
+}
+
+.elementor .elementor-left .bars .bar .text p {
+    font-size: 16px;
+    color: #666666;
+}
+
+.elementor .elementor-left .bars .bar .btn {
+    margin-top: 20px;
+    width: 355.83px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: #444;
+    background: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.elementor .elementor-left .bars .bar .btn:hover{
+    color: #646464;
+}
+
+.elementor .elementor-left .bars .bar .btn i {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ccc;
+}
+
+.elementor .elementor-right {
+    padding-top: 10px;
+    width: 338px;
+}
+
+.elementor .elementor-right .elementor-widget {
+    width: 338px;
+    margin-bottom: 33px;
+}
+
+.elementor .elementor-right .elementor-widget .box-header {
+    margin-bottom: 16px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    position: relative;
+}
+
+.elementor .elementor-right .elementor-widget .box-header h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #111111;
+    margin-bottom: 0;
+    padding-bottom: 12px;
+}
+
+.elementor .elementor-right .elementor-widget .box-header .line {
+    width: 50px;
+    height: 3px;
+    background-color: #111111;
+    position: absolute;
+    top: 99%;
+}
+
+.elementor .elementor-right .elementor-widget .info .img {
+    text-align: center;
+}
+
+.elementor .elementor-right .elementor-widget .info .img img {
+    margin-top: 18px;
+}
+
+.elementor .elementor-right .elementor-widget .info .avt {
+    max-width: 100%;;
+    height: inherit;
+    border-radius: 50%;
+} 
+
+.elementor .elementor-right .elementor-widget .info p {
+    font-size: 16px;
+    color: #444;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: .5px;
+    line-height: 29px;
+}
+
+.elementor .elementor-right .elementor-widget .networks {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.elementor .elementor-right .elementor-widget .networks .icon {
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    margin: 0 5px 5px 0;
+    cursor: pointer;
+    transition: 200ms all;
+}
+
+.elementor .elementor-right .elementor-widget .networks .icon:hover {
+    background-color: #444;
+    color: white;
+}
+
+.elementor .elementor-right .elementor-widget .popular-post .post-item {
+    display: flex;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.elementor .elementor-right .elementor-widget .popular-post .post-item .img {
+    height: 92px;   
+    width: 101.48px;
+    margin-right: 16px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.elementor .elementor-right .elementor-widget .popular-post .post-item .note {
+    width: 55%;
+}
+
+.elementor .elementor-right .elementor-widget .popular-post .post-item .note2 {
+    width: 33%;
+}
+
+.elementor .elementor-right .elementor-widget .popular-post .post-item img {
+    border-radius: 4px;
+    transition: 200ms all;  
+}
+
+.elementor .elementor-right .elementor-widget .popular-post .post-item img:hover {
+    transform: scale(1.05);
+}
+
+.elementor .elementor-right .elementor-widget .popular-post .post-item .text .p-text {
+    text-transform: capitalize;
+    display: flex;
+    font-size: 14px;
+    color: #757575;
+}
+
+.elementor .elementor-right .elementor-widget .popular-post .post-item .text .p-text .item {
+    padding-right: 14px;
+}
+
+.elementor .elementor-right .elementor-widget .popular-post .post-item .text h3 {
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #444444;
+    font-family: "Playfair Display", sans-serif;
+    cursor: pointer;
+}
+
+.elementor .elementor-right .elementor-widget .popular-post .post-item .text h3:hover {
+    color: #646464;
+}
+
+.elementor .elementor-right .elementor-widget .list-item {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #757575;
+}
+
+.elementor .elementor-right .elementor-widget .list-item .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.elementor .elementor-right .elementor-widget .list-item .item .title:hover {
+    color: #444;
+    cursor: pointer;
+}
+
+.elementor .elementor-right .subcribe {
+    width: 278.33px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    background-color: #222;
+    text-align: center;
+    padding: 32px 30px 30px;
+}
+
+.elementor .elementor-right .subcribe h2 {
+    color: #969696;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.elementor .elementor-right .subcribe input {
+    text-align: center;
+    font-size: 16px;
+    padding: 16px 0;
+    background: #585858;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 16px;  
+    outline: none;    
+}
+
+.elementor .elementor-right .subcribe button {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 16px 0;
+    background: white;
+    color: #111;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.elementor .elementor-right .subcribe button:hover {
+    color: #646464;
+}
+
+.elementor .elementor-right .elementor-widget .img {
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.elementor .elementor-right .feature {
+    position: relative;
+}
+
+.elementor .elementor-right .elementor-widget .tab-overlay {
+    position: absolute;
+    width: 257px;
+    height: 98px;
+    padding: 20px 20px 0;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: capitalize;
+    background: white;
+    top: 80%;
+    left: 6%;
+}
+
+.elementor .elementor-right .elementor-widget .tab-overlay .p-top {
+    display: flex;
+    justify-content: center;
+    color: #757575;
+    font-size: 14px;
+}
+
+.elementor .elementor-right .elementor-widget .tab-overlay .p-top .item {
+    padding: 0 8px;
+}
+
+.elementor .elementor-right .elementor-widget .tab-overlay p {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 20px;
+    color: #111;
+    font-weight: 700;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.elementor .elementor-right .elementor-widget .tab-overlay p:hover {
     color: #646464;
 }
